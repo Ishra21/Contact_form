@@ -79,11 +79,11 @@ form.addEventListener("submit", submitDetails)
 //     }
 // }
 
-emailBtn.addEventListener("click", (e) => {
-    if (e.target.className.includes("btn-warning")) {
-        window.location.href = `mailto:${email.value}`;
-    }
-});
+// emailBtn.addEventListener("click", (e) => {
+//     if (e.target.className.includes("btn-warning")) {
+//         window.location.href = `mailto:${email.value}`;
+//     }
+// });
 
 // callBtn.addEventListener("click", () => {
 //     window.location.href = `tel:${phone.value}`;
